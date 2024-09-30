@@ -1,0 +1,65 @@
+/* Universal styling for text elements */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, tr, td, span, div {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Table styling for a more modern look */
+table.toptekst {
+    font-size: 85%;
+    background-color: #F8F9FA;
+    color: #212529;
+    border: none;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.ugeplan {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+/* General table row alignment */
+tr {
+    vertical-align: top;
+}
+
+/* Preformatted text and code block styling */
+pre, code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Center and right alignment for div elements */
+div.center {
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.right {
+    text-align: right;
+    margin-top: 10px;
+}
+
+div.bundtekst {
+    font-size: 70%;
+    text-align: right;
+    color: #777;
+}
+
+/* Styles for marked-up text */
+.out {
+    text-decoration: line-through;
+    color: #d9534f; /* Red for deleted items */
+}
+
+.new {
+    background-color: #FFEB3B; /* Softer yellow for new items */
+    color: #212529;
+    font-weight: bold;
+}
